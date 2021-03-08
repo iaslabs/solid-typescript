@@ -9,7 +9,7 @@ class UserBadExample {
         this.phoneNumber = phoneNumber;
     }
 
-    sendEmailNotification(message: string, user: User): void {
+    sendEmailNotification(message: string, user: UserBadExample): void {
         // Logic to send a message to an user
         console.log(`Message: ${message} -Sent to: ${user.email}`);
     }
